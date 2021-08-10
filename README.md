@@ -1,3 +1,3 @@
 # KaKaoTalk Clone
 
-with HTML, CSS, and JavaScript
+Clone Coding with HTML, CSS, and JavaScript
