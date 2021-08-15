@@ -6,8 +6,12 @@
 /*components*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
 /*screen*/
 @import "screens/login.css";
+@import "screens/friends.css";
 
 /* Use Basic Fonts */
 /* body{
@@ -15,10 +19,14 @@
 } */
 
 body{
+    color: #2e363e;
     font-family: 'Open Sans', sans-serif;
     height: 1000vh;
 }
 
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
 .welcome-header {
     margin: 90px 0px;
     text-align: center;
