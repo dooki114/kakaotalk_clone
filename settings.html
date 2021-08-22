@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats - Danny Talk</title>
+    <title>More - Danny Talk</title>
 </head>
 <body>
     <div class="status-bar">
@@ -23,55 +23,50 @@
         </div>
     </div>
 
-    <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
-        <div class="screen-header__icons">
-            <span>
-                <i class="fas fa-search fa-lg"></i>
-            </span>
-            <span>
-                <i class="far fa-comment-dots fa-lg"></i>
-            </span>
-            <span>
-                <i class="fas fa-music fa-lg"></i>
-            </span>
-            <span>
-                <i class="fas fa-cog fa-lg"></i>
-            </span>
+    <!-- header.alt-header>div.alt-header__column*3 -->
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html">
+                <i class="fas fa-angle-left fa-3x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fas fa-search fa-lg"></i>
         </div>
     </header>
 
-    <a id="friends-display-link">
-        <i class="fas fa-info-circle"></i>Friends' Names Display
-    </a>
-
     <main class="main-screen">
-        <a href="chat.html">
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img src="profile_sample.jpg" class="user-component__avatar user-component__avatar--xl" />
-                    <div class="user-component__text">
-                        <h4 class="user-component__title">Danny Kim</h4>
-                        <h6 class="user-component__subtitle">Life is tough asf</h6>
-                    </div>
+        <ul class="setting-list">
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>Notices</span>              
                 </div>
-                <div class="user-component__column">
-                    <span class="user-component__time">21:22</span>
-                    <div class="badge">1</div>
+                <div class="settings__setting-column"></div>
+            </li>
+
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-flask"></i>
+                    <span>DannyTalk Lab</span>
                 </div>
-            </div>
-        </a>
-    </main>
-    <!--user photo and status message-->
-    <!-- <nav>
-        <ul>
-            <li class="nav__btn">
-                <a href=""></a>
-            </li class="nav__btn">
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Version</span>
+                </div>
+                <div class="settings__setting-column">
+                    Latest Version
+                </div>
+            </li>
         </ul>
-    </nav> -->
-        
-    <!-- nav>ul>li class="nav__btn"*4>a -->
+    </main>
+
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
@@ -83,8 +78,8 @@
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="nav__chats-notification">1</span>
-                    <!-- <i class="far fa-comment fa-2x"></i> -->
-                    <i class="fas fa-comment fa-2x"></i>
+                    <i class="far fa-comment fa-2x"></i>
+                    <!-- <i class="fas fa-comment fa-2x"></i> -->
                 </a>
             </li class="nav__btn">
             <li class="nav__btn">
@@ -98,9 +93,7 @@
             </li class="nav__btn">
         </ul>
     </nav>
-    <div id="no-mobile">
-        <span>Your screen is too big</span>
-    </div>
+
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>
 </html>
